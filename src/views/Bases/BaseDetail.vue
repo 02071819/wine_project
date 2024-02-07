@@ -22,7 +22,7 @@ export default {
 <template>
   <div>
     <div v-if="selectedItem" class="selectedItem">
-      <img :src="`../src/assets/alcohol/${selectedItem.imageSrc}`" />
+      <img :src="`/assets/alcohol/${selectedItem.imageSrc}`" />
       <div class="words">
         <h3>{{ selectedItem.title }}</h3>
         <p>{{ selectedItem.details }}</p>
