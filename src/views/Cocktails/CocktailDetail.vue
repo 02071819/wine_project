@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="selectedItem" class="selectedItem">
-      <img :src="`../src/assets/cocktail/${selectedItem.imageSrc}`" />
+      <img :src="`/assets/alcohol/${selectedItem.imageSrc}`" />
       <div class="words">
         <h3>{{ selectedItem.title }}</h3>
         <ul>
