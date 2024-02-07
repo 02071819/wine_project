@@ -3,7 +3,7 @@
     <div v-for="base in bases" :key="base.id" class="base">
       <RouterLink :to="{ name: 'BaseDetail', params: { id: base.id } }">
         <h3>{{ base.title }}</h3>
-        <img :src="`src/assets/alcohol/${base.imageSrc}`" />
+        <img :src="`../src/assets/alcohol/${base.imageSrc}`" />
       </RouterLink>
     </div>
   </div>
@@ -18,7 +18,7 @@ export default {
           title: "Vodka 伏特加",
           id: 1,
           details: "lorem",
-          imageSrc: "vodka.jpg",
+          imageSrc: "../../assets/alcohol/vodka.jpg",
         },
         {
           title: "蘭姆酒 Rum",
