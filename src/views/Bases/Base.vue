@@ -18,7 +18,7 @@ export default {
           title: "Vodka 伏特加",
           id: 1,
           details: "lorem",
-          imageSrc: "../../assets/alcohol/vodka.jpg",
+          imageSrc: "../assets/alcohol/vodka.jpg",
         },
         {
           title: "蘭姆酒 Rum",
