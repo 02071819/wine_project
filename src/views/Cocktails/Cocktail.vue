@@ -3,7 +3,7 @@
       <div v-for="cocktail in cocktails" :key="cocktail.id" class="cocktail">
         <RouterLink :to="{ name: 'CocktailDetail', params: { id: cocktail.id } }">
           <h3>{{ cocktail.title }}</h3>
-          <img :src="`../src/assets/cocktail/${cocktail.imageSrc}`" />
+          <img :src="`/assets/alcohol/${cocktail.imageSrc}`" />
         </RouterLink>
       </div>
     </div>
