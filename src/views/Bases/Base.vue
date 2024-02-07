@@ -3,7 +3,7 @@
     <div v-for="base in bases" :key="base.id" class="base">
       <RouterLink :to="{ name: 'BaseDetail', params: { id: base.id } }">
         <h3>{{ base.title }}</h3>
-        <img :src="`../src/assets/alcohol/${base.imageSrc}`" />
+        <img :src="`src/assets/alcohol/${base.imageSrc}`" />
       </RouterLink>
     </div>
   </div>
